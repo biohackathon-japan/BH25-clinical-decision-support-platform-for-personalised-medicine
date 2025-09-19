@@ -50,10 +50,27 @@ authors:
     affiliation: 2
   - name: Andra Waagmeester
     affiliation: 2
+  - name: David Steinberg
+    affiliation: 2
+  - name: Alex Kanitz
+    affiliation: 2
+  - name: Michel Dumontier
+    affiliation: 2
 affiliations:
   - name: University of Utah
+    ror: 03r0ha626
     index: 1
-  - name: ELIXIR Europe
+  - name: Maastricht University
+    ror: 02jz4aj89
+    index: 2
+date: 18 September 2025
+cito-bibliography: paper.bib
+event: BH25JP
+biohackathon_name: "DBCLS BioHackathon 2025"
+biohackathon_url:   "https://2025.biohackathon.org/"
+biohackathon_location: "Mie, Japan, 2025"
+group: Biomedical
+# URL to project git repo --- should contain the actual paper.md:
     ror: 044rwnt51
     index: 2
 date: 18 September 2025
@@ -62,7 +79,7 @@ event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
-group: YOUR-PROJECT-NAME-GOES-HERE
+group: Biomedical
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/BH25-clinical-decision-support-platform-for-personalised-medicine
 # This is the short authors description that is used at the
