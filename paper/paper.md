@@ -88,48 +88,6 @@ Specifically, this includes:
 * A framework for integrating this knowledge into EHR-based clinical decision support systems, enabling the seamless application of personalized genomic insights within routine clinical workflows.
 
 ![Platform for Genomic medicine - system components.](paper/platform.jpg)
----
-
-## Author information
-
-```yaml
-authors:
-  - name: Claude Nanjo
-    orcid: 0000-0000-0000-0000
-    affiliation: 1
-  - name: Eric Prud'Hommeaux
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-  - name: Soichi Ogishima
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-  - name: Orion Buske
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-  - name: Apiwat Sangphukieo (Nong)
-    affiliation: 2
-  - name: Nattawet Sriwichai (Golf)
-    affiliation: 2
-  - name: Chang Sun
-    affiliation: 2
-  - name: Chatarin (Chad) Wangsanuwat
-    affiliation: 2
-  - name: Andra Waagmeester
-    affiliation: 2
-  - name: David Steinberg
-    affiliation: 2
-  - name: Alex Kanitz
-    affiliation: 2
-  - name: Michel Dumontier
-    affiliation: 2
-affiliations:
-  - name: University of Utah
-    ror: 03r0ha626
-    index: 1
-  - name: Maastricht University
-    ror: 02jz4aj89
-    index: 2
-```
 
 ## Use cases
 
@@ -206,8 +164,6 @@ Thiopurine pharmacogenomics is a prototypical case for precision medicine.
 * Dosing is personalized to balance efficacy and safety.
 * Prevents life-threatening neutropenia and bone marrow suppression, reduces hospitalizations, and improves long-term therapy adherence.
 
----
-
 ## Risk Reduction: Familial Hypercholesterolemia
 
 Here’s a clear clinical use case showing how genomics helps in Familial Hypercholesterolemia (FH):
@@ -255,8 +211,6 @@ Here’s a clear clinical use case showing how genomics helps in Familial Hyperc
 
 **In short:** Genomic screening for FH turns a patient with “high cholesterol” into a clearly identified, high-risk genetic case, leading to earlier, more aggressive treatment and preventive care for relatives.
 
----
-
 ## Risk Reduction: Hereditary Breast/Ovarian Cancer (BRCA1/2) — Thailand
 
 ### Overview
@@ -281,8 +235,6 @@ Pathogenic variants in **BRCA1/BRCA2** markedly raise lifetime risks of breast a
 
 * If positive (Pathogenic/Likely Pathogenic), could get surgery, therapy, more surveillance, and cascade testing.
 * If negative, could consider other genes/possibilities.
-
----
 
 ## Prevention Use Case: BRCA1/2 Result Return in the General Population
 
@@ -347,15 +299,11 @@ In the Prevention Use Case of returning BRCA1/2 results to the general populatio
 * Family involvement was substantial, extending the benefits beyond the individual.
 * Serves as a public health model of precision medicine, expanding its role from treatment settings to prevention and population-level healthcare.
 
----
-
 ## Rare Disease Screening
 
 Applications currently exist, such as **PubCaseFinder**, allowing clinicians to enter patient diagnoses and be presented with a list of potentially relevant rare diseases by order of relevance.
 
 Such applications offer the potential of being integrated into CDS systems such that on opening the patient chart, the patient’s problem list and encounter diagnoses, along with any additional supporting data can be sent to such an API, and search results then be presented to the clinicians. Another possibility is to allow clinicians to trigger the functionality on demand.
-
----
 
 ## High-level Platform Requirements
 
@@ -377,8 +325,6 @@ Such applications offer the potential of being integrated into CDS systems such 
     * The Genomic KB shall be decoupled from both EHR and CDSS as it may be used in contexts unrelated to clinical practice. It is anticipated that data conveyed to and from such a system will require transformations to either FHIR or the CDS logical model.
     * The Genomic KB might be invoked by a separate entity from the CDSS such as the performing laboratory. In this case, an additional step may be needed to structure the results from the laboratory for use by the CDS system.
 
----
-
 ## Platform Specification
 
 Given the breadth of use cases where genomics can be applied to medicine, we propose a flexible system that allows the pairing of system components to meet the realities in the field and APIs that support various degrees of formalism. For instance, one can expect that common pharmacogenomic use cases will generally support standard coding schemes (e.g., LOINC and SNOMED-CT) and be associated with corresponding clinical guidance whereas cutting edge work in genomic oncology may follow different conventions, workflows and approaches.
@@ -392,8 +338,6 @@ In the first example, a CDS system routes genomic test results to a genomic know
 
 In the second example above, the genomic knowledge base functionality is invoked by the laboratory directly rather than by the CDS system. The CDS system then routes the resulting genomic lab results along with clinical context to a potentially separate service in order to obtain genome-specific clinical guidance.
 
----
-
 ## Implementation Considerations for a PGx Service
 
 * Normalization of genotype and phenotype inputs to PGx service. Patient genotype and phenotype information may be presented in a number of formats - free text vs structured and coded, variant-based vs star-notation-based. A number of steps may be required to structure and normalize the inputs.
@@ -402,12 +346,10 @@ In the second example above, the genomic knowledge base functionality is invoked
 * CPIC guidelines are currently specified in free text. They should also be defined in a structured and computable form. CQF CPG standards currently in development might be a step in this direction.
 * CPIC guidelines often make use of dosing calculators. Such calculators will also need to be implemented as services unless such services already exist.
 
----
-
 ## Next-Steps
 
 Our initial efforts focused on surveying the landscape to better understand the state of clinical genomics and its direct applications in medical practice. Given the breadth of the field, we opted to focus initially on pharmacogenomics and address in the future other important areas of clinical genomics. We concluded that though great advances have been made in this space, more remains to be done in the area of standards development and knowledge representation before a practical interoperable and shareable representation of such knowledge can be made available to consuming applications. Until we reach that point, the community may still benefit from PGx services that offer computable representation of such guidance based on a best-of-breed  ‘community-of-use’ specification. As standards mature, future iterations could then offer fully standard APIs.
 
 In order to facilitate the development of such services, we are planning to develop an initial prototype implementation of a PGx service supporting a subset of CPIC guidelines. This prototype will be implemented using OpenMRS as the reference EHR and will be made available to the community for testing and feedback.
 
----
+
