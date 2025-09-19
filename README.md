@@ -402,5 +402,7 @@ In the second example above, the genomic knowledge base functionality is invoked
 
 Our initial efforts focused on surveying the landscape to better understand the state of clinical genomics and its direct applications in medical practice. Given the breadth of the field, we opted to focus initially on pharmacogenomics and address in the future other important areas of clinical genomics. We concluded that though great advances have been made in this space, more remains to be done in the area of standards development and knowledge representation before a practical interoperable and shareable representation of such knowledge can be made available to consuming applications. Until we reach that point, the community may still benefit from PGx services that offer computable representation of such guidance based on a best-of-breed  ‘community-of-use’ specification. As standards mature, future iterations could then offer fully standard APIs.
 
+In order to facilitate the development of such services, we are planning to develop an initial prototype implementation of a PGx service supporting a subset of CPIC guidelines. This prototype will be implemented using OpenMRS as the reference EHR and will be made available to the community for testing and feedback.
+
 ---
 
