@@ -202,7 +202,7 @@ CPIC provides tables (drug-gene specific) with initial dose adjustments:
   * Increased risk of moderate myelosuppression.
 
 * **Poor metabolizer (PM)**
-  * Greatly reduce dose (≤10% of standard, or administer less frequently)
+  * Greatly reduce dose (<=10% of standard, or administer less frequently)
   * Some CPIC guidance: consider alternative non-thiopurine therapy.
   * Extremely high risk of life-threatening myelosuppression.
 
