@@ -6,7 +6,8 @@ tags:
   - Ontologies
   - Workflows
 authors:
-  - name: First Author
+  - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
@@ -44,7 +45,8 @@ For example, this is the author information for this template:
 
 ```yaml
 authors:
-  - name: First Author
+  - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
