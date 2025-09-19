@@ -107,6 +107,47 @@ Specifically, this includes:
 ![Platform for Genomic medicine - system components.](paper/platform.jpg)
 ---
 
+## Author information
+
+```yaml
+authors:
+  - name: Claude Nanjo
+    orcid: 0000-0000-0000-0000
+    affiliation: 1
+  - name: Eric Prud'Hommeaux
+    orcid: 0000-0000-0000-0000
+    affiliation: 2
+  - name: Soichi Ogishima
+    orcid: 0000-0000-0000-0000
+    affiliation: 2
+  - name: Orion Buske
+    orcid: 0000-0000-0000-0000
+    affiliation: 2
+  - name: Apiwat Sangphukieo (Nong)
+    affiliation: 2
+  - name: Nattawet Sriwichai (Golf)
+    affiliation: 2
+  - name: Chang Sun
+    affiliation: 2
+  - name: Chatarin (Chad) Wangsanuwat
+    affiliation: 2
+  - name: Andra Waagmeester
+    affiliation: 2
+  - name: David Steinberg
+    affiliation: 2
+  - name: Alex Kanitz
+    affiliation: 2
+  - name: Michel Dumontier
+    affiliation: 2
+affiliations:
+  - name: University of Utah
+    ror: 03r0ha626
+    index: 1
+  - name: Maastricht University
+    ror: 02jz4aj89
+    index: 2
+```
+
 ## Use cases
 
 ### Pharmacogenomic Use Case: Thiopurine Dosing
@@ -154,16 +195,16 @@ CPIC assigns phenotypes based on diplotypes:
 CPIC provides tables (drug-gene specific) with initial dose adjustments:
 
 * **TPMT or NUDT15 Normal Metabolizer (NM/NM)**
-  → Start standard dose.
+  * Start standard dose.
 
 * **Heterozygous / Intermediate metabolizer (IM)**
-  → Reduce starting dose (30–80% of standard), adjust with therapeutic drug monitoring (TDM).
-  → Increased risk of moderate myelosuppression.
+  * Reduce starting dose (30–80% of standard), adjust with therapeutic drug monitoring (TDM).
+  * Increased risk of moderate myelosuppression.
 
 * **Poor metabolizer (PM)**
-  → Greatly reduce dose (≤10% of standard, or administer less frequently)
-  → Some CPIC guidance: consider alternative non-thiopurine therapy.
-  → Extremely high risk of life-threatening myelosuppression.
+  * Greatly reduce dose (≤10% of standard, or administer less frequently)
+  * Some CPIC guidance: consider alternative non-thiopurine therapy.
+  * Extremely high risk of life-threatening myelosuppression.
 
 Important: Recommendations depend on whether TPMT or NUDT15 are abnormal. If both are reduced, dose must be drastically reduced or avoided altogether.
 
