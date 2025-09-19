@@ -1,49 +1,20 @@
 ---
-title: 'DBCLS BioHackathon 2025 report: Template for the very long title'
-title_short: 'BioHackJP25: How we found breakfast'
-tags:
-  - Semantic web
-  - Ontologies
-  - Workflows
-authors:
-  - name: Andra Waagmeester
-    orcid: 0000-0001-9773-4008
-    affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-affiliations:
-  - name: First Affiliation
-    index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
-    index: 2
-date: 15 September 2025
-cito-bibliography: paper.bib
-event: BH25JP
-biohackathon_name: "DBCLS BioHackathon 2025"
-biohackathon_url:   "https://2025.biohackathon.org/"
-biohackathon_location: "Mie, Japan, 2025"
-group: YOUR-PROJECT-NAME-GOES-HERE
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
----
 
-# Introduction
-
-As part of the DBCLS BioHackathon 2025, we here report...
-
-## Author information
-
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
-identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
-For example, this is the author information for this template:
-
-```yaml
+title: 'A Platform for Personalized Medicine - A Survey of the Landscape'
+title_short: 'Platform for Personalized Medicine'
+tags:
+  - Clinical Decision Support
+  - Personalized Medicine
+  - Pharmacogenomics
+  - Precision Medicine
+  - Genomics
+  - BioHackathon
+  - BioHackrXiv
 authors:
   - name: Claude Nanjo
     orcid: 0000-0000-0000-0000
@@ -80,7 +51,19 @@ affiliations:
   - name: Maastricht University
     ror: 02jz4aj89
     index: 2
-```
+date: 18 September 2025
+cito-bibliography: paper.bib
+event: BH25JP
+biohackathon_name: "DBCLS BioHackathon 2025"
+biohackathon_url:   "https://2025.biohackathon.org/"
+biohackathon_location: "Mie, Japan, 2025"
+group: Biomedical
+# URL to project git repo --- should contain the actual paper.md:
+git_url: https://github.com/biohackathon-japan/BH25-clinical-decision-support-platform-for-personalised-medicine
+# This is the short authors description that is used at the
+# bottom of the generated paper (typically the first two authors):
+authors_short: Nanjo \emph{et al.}
+---
 
 # Platform for Personalized Medicine
 
