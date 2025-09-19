@@ -28,14 +28,15 @@ authors:
   - name: Orion Buske
     orcid: 0000-0000-0000-0000
     affiliation: 2
-  - name: Apiwat Sangphukieo (Nong)
-    affiliation: 2
-  - name: Nattawet Sriwichai (Golf)
-    affiliation: 2
+  - name: Apiwat Sangphukieo
+    affiliation: 3
+  - name: Nattawet Sriwichai
+    orcid: 0000-0002-5844-4689
+    affiliation: 3
   - name: Chang Sun
     affiliation: 2
-  - name: Chatarin (Chad) Wangsanuwat
-    affiliation: 2
+  - name: Chatarin Wangsanuwat
+    affiliation: 4
   - name: Andra Waagmeester
     affiliation: 2
   - name: David Steinberg
@@ -51,6 +52,12 @@ affiliations:
   - name: Maastricht University
     ror: 02jz4aj89
     index: 2
+  - name: Chiang Mai University
+    ror: 05m2fqn25
+    index: 3
+  - name: Mahidol University
+    ror: 01znkr924
+    index: 4
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
@@ -87,7 +94,7 @@ Specifically, this includes:
 * An API to access evidence-based clinical recommendations based on a patient’s genotype and/or phenotype.
 * A framework for integrating this knowledge into EHR-based clinical decision support systems, enabling the seamless application of personalized genomic insights within routine clinical workflows.
 
-![Platform for Genomic medicine - system components.](paper/platform.jpg)
+![Platform for Genomic medicine - system components.](platform.jpg)
 
 ## Use cases
 
