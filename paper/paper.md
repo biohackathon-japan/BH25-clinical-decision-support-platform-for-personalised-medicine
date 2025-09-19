@@ -17,7 +17,7 @@ tags:
   - BioHackrXiv
 authors:
   - name: Claude Nanjo
-    orcid: 0000-0000-0000-0000
+    orcid: 0009-0002-1208-8858
     affiliation: 1
   - name: Eric Prud'Hommeaux
     orcid: 0000-0000-0000-0000
