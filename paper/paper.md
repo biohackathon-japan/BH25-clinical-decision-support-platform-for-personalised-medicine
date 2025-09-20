@@ -1,10 +1,4 @@
 ---
-# URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
-
 title: 'A Platform for Personalized Medicine - A Survey of the Landscape'
 title_short: 'Platform for Personalized Medicine'
 tags:
@@ -26,8 +20,8 @@ authors:
     orcid: 0000-0000-0000-0000
     affiliation: 2
   - name: Orion Buske
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
+    orcid: 0000-0002-9064-092X
+    affiliation: 6
   - name: Apiwat Sangphukieo
     affiliation: 3
   - name: Nattawet Sriwichai
@@ -40,9 +34,8 @@ authors:
   - name: Andra Waagmeester
     affiliation: 2
   - name: David Steinberg
-    affiliation: 2
-  - name: Alex Kanitz
-    affiliation: 2
+    orcid: 0000-0001-6683-2270
+    affiliation: 5
   - name: Michel Dumontier
     affiliation: 2
 affiliations:
@@ -58,6 +51,10 @@ affiliations:
   - name: Mahidol University
     ror: 01znkr924
     index: 4
+  - name: Camber
+    index: 5
+  - name: Phenotips
+    index: 6
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
