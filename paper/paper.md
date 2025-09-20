@@ -14,30 +14,38 @@ authors:
     orcid: 0009-0002-1208-8858
     affiliation: 1
   - name: Soichi Ogishima
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
+    orcid: 0000-0001-8613-2562
+    affiliation: 10
   - name: Eric Prud'Hommeaux
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-  - name: Orion Buske
-    orcid: 0000-0002-9064-092X
-    affiliation: 6
+    orcid: 0000-0003-1775-9921
+    affiliation: 9
   - name: Apiwat Sangphukieo
+    orcid: 0000-0001-5210-5398
     affiliation: 3
   - name: Nattawet Sriwichai
     orcid: 0000-0002-5844-4689
     affiliation: 3
   - name: Chatarin Wangsanuwat
+    orcid: 0000-0001-8228-2387
     affiliation: 4
+  - name: Orion Buske
+    orcid: 0000-0002-9064-092X
+    affiliation: 6
   - name: Chang Sun
+    orcid: 0000-0001-8325-8848
     affiliation: 2
   - name: Michel Dumontier
+    orcid: 0000-0003-4727-9435
     affiliation: 2
   - name: Andra Waagmeester
+    orcid: 0000-0001-9773-4008
     affiliation: 7
   - name: David Steinberg
     orcid: 0000-0001-6683-2270
     affiliation: 5
+  - name: Núria Queralt Rosinach
+    orcid: 0000-0003-0169-8159
+    affiliation: 8
 affiliations:
   - name: University of Utah
     ror: 03r0ha626
@@ -56,7 +64,14 @@ affiliations:
   - name: Phenotips
     index: 6
   - name: Amsterdam Public Health Research Institute, Methodology & Digital Health
-    index: 7    
+    index: 7  
+  - name: TBD
+    index: 8   
+  - name: Unaffiliated
+    index: 9   
+  - name: Tohoku University
+    ror: 01dq60k83
+    index: 10   
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
