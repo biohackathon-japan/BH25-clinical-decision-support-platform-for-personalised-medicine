@@ -13,10 +13,10 @@ authors:
   - name: Claude Nanjo
     orcid: 0009-0002-1208-8858
     affiliation: 1
-  - name: Eric Prud'Hommeaux
+  - name: Soichi Ogishima
     orcid: 0000-0000-0000-0000
     affiliation: 2
-  - name: Soichi Ogishima
+  - name: Eric Prud'Hommeaux
     orcid: 0000-0000-0000-0000
     affiliation: 2
   - name: Orion Buske
@@ -27,17 +27,17 @@ authors:
   - name: Nattawet Sriwichai
     orcid: 0000-0002-5844-4689
     affiliation: 3
-  - name: Chang Sun
-    affiliation: 2
   - name: Chatarin Wangsanuwat
     affiliation: 4
-  - name: Andra Waagmeester
+  - name: Chang Sun
     affiliation: 2
+  - name: Michel Dumontier
+    affiliation: 2
+  - name: Andra Waagmeester
+    affiliation: 7
   - name: David Steinberg
     orcid: 0000-0001-6683-2270
     affiliation: 5
-  - name: Michel Dumontier
-    affiliation: 2
 affiliations:
   - name: University of Utah
     ror: 03r0ha626
@@ -55,6 +55,8 @@ affiliations:
     index: 5
   - name: Phenotips
     index: 6
+  - name: Amsterdam Public Health Research Institute, Methodology & Digital Health
+    index: 7    
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
