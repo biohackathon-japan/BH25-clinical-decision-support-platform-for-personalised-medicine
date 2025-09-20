@@ -292,9 +292,12 @@ In the Prevention Use Case of returning BRCA1/2 results to the general populatio
 * **Pathogenic Variant Pipeline (Bioinformatics Pipeline):** Built as a bioinformatics pipeline separately from the Participant Health Record Management System. Interprets structured patient data retrieved from the Participant Health Record Management System in light of genomic knowledge and produces context-specific clinical recommendations, such as enhanced surveillance, preventive surgeries, or referral to genetic counseling. Corresponds to the CDS in a hospital setting.
 * **Genomic KB:** Decoupled from both Participant Health Record and CDS. For BRCA1/2, ClinVar and HGMD serve as the authoritative resources for variant classification, ensuring consistent interpretation of pathogenic variants.
 
-* **Psychological Impact:** Average K6 scores did not show persistent negative effects; most participants responded positively and were motivated to act.
-* **Family Impact:** Many participants shared results with relatives, and daughters or sisters often sought genetic testing themselves.
-* **Systemic Limitations:** In Japan, preventive interventions for unaffected carriers and family members are not covered by insurance, creating financial burdens.
+**Psychological Impact:** Average K6 scores did not show persistent negative effects; most participants responded positively and were motivated to act.
+
+**Family Impact:** Many participants shared results with relatives, and daughters or sisters often sought genetic testing themselves.
+
+**Systemic Limitations:** In Japan, preventive interventions for unaffected carriers and family members are not covered by insurance, creating financial burdens.
+
 
 #### 6. Use Case Summary
 
